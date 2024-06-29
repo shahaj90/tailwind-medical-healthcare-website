@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-medical-healthcare-website",
+  "version": "1.0.0",
+  "description": "## Overview This project is a responsive medical healthcare website built using Tailwind CSS. It is designed to provide essential healthcare services and information to users, featuring clean and modern design principles. The website is optimized for performance and accessibility, ensuring a seamless user experience across different devices.",
+  "main": "",
+  "scripts": {
+    "build":"tailwindcss -i ./css/input.css -o ./dist/output.css",
+    "watch":"tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
