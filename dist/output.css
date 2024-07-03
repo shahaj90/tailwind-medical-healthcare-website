@@ -880,6 +880,10 @@ video {
   background-image: url(../assets/img/services/bg.svg);
 }
 
+.bg-services {
+  background-image: url(../../assets/img/services/bg.svg);
+}
+
 .bg-cover {
   background-size: cover;
 }
