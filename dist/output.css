@@ -612,6 +612,10 @@ video {
   left: 0px;
 }
 
+.right-4 {
+  right: 1rem;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -642,6 +646,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -656,6 +664,10 @@ video {
 
 .mb-\[42px\] {
   margin-bottom: 42px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-8 {
@@ -755,6 +767,12 @@ video {
   cursor: pointer;
 }
 
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -807,12 +825,20 @@ video {
   row-gap: 1rem;
 }
 
+.gap-y-5 {
+  row-gap: 1.25rem;
+}
+
 .gap-y-6 {
   row-gap: 1.5rem;
 }
 
 .self-end {
   align-self: flex-end;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .overflow-hidden {
@@ -871,6 +897,10 @@ video {
   background-color: rgb(36 42 43 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -895,6 +925,11 @@ video {
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-6 {
@@ -945,6 +980,10 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[26px\] {
+  font-size: 26px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -987,6 +1026,11 @@ video {
 .text-accent-tertiary {
   --tw-text-opacity: 1;
   color: rgb(144 198 205 / var(--tw-text-opacity));
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(36 42 43 / var(--tw-text-opacity));
 }
 
 .text-secondary {
@@ -1190,17 +1234,9 @@ h6 {
   padding-right: 1rem;
 }
 
-.select {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-@media (min-width: 1330px) {
-  .select {
-    padding-top: 150px;
-    padding-bottom: 150px;
-  }
-}
+/* .select {
+    @apply py-12 xl:py-[150px];
+} */
 
 /* Swiper bullets */
 
@@ -1342,6 +1378,10 @@ h6 {
     margin-bottom: 0.5rem;
   }
 
+  .xl\:mb-\[50px\] {
+    margin-bottom: 50px;
+  }
+
   .xl\:mb-\[60px\] {
     margin-bottom: 60px;
   }
@@ -1368,6 +1408,10 @@ h6 {
 
   .xl\:items-start {
     align-items: flex-start;
+  }
+
+  .xl\:self-start {
+    align-self: flex-start;
   }
 
   .xl\:border-r {

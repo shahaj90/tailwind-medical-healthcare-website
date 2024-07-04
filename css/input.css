@@ -64,9 +64,9 @@ h6 {
     @apply px-4;
 }
 
-.select {
+/* .select {
     @apply py-12 xl:py-[150px];
-}
+} */
 
 /* Swiper bullets */
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
